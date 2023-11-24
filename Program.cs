@@ -55,7 +55,7 @@ namespace newki_inventory_pallet
             ConnectionFactory factory = new ConnectionFactory();
             factory.UserName = "user";
             factory.Password = "password";
-            factory.HostName = "localhost";
+            factory.HostName = "localmq";
 
             var connection = factory.CreateConnection();
 

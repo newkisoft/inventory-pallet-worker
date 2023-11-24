@@ -757,7 +757,7 @@
           }
         }
       },
-      "NewKiTurkeyLibrary/1.8.6": {
+      "NewKiTurkeyLibrary/1.8.7": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.1",
@@ -3158,14 +3158,14 @@
         "runtimes/win/native/mongocrypt.dll"
       ]
     },
-    "NewKiTurkeyLibrary/1.8.6": {
-      "sha512": "9RFgNEhihhbRMHlNQo34dROY2/mIrgGq+dQQI+O3aBOZbo2TRhvQZrtxFSBPHLU7a651BQbUVQ3xmYK66pdiKg==",
+    "NewKiTurkeyLibrary/1.8.7": {
+      "sha512": "aZPJrKpebUz9MgBgY+WiIhTGJ/6SdeuOVdl/EJ3CuPPY0Pgv5q1uRj2YnAmZ8/cHlBdaxnWdYmJ/SJpwQiYLnw==",
       "type": "package",
-      "path": "newkiturkeylibrary/1.8.6",
+      "path": "newkiturkeylibrary/1.8.7",
       "files": [
         ".nupkg.metadata",
         "lib/netcoreapp3.1/newkilibraries.dll",
-        "newkiturkeylibrary.1.8.6.nupkg.sha512",
+        "newkiturkeylibrary.1.8.7.nupkg.sha512",
         "newkiturkeylibrary.nuspec"
       ]
     },
@@ -6827,11 +6827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/kianoush/Shared/projects/newki-inventory-pallet/newki-inventory-pallet.csproj",
-      "projectName": "newki-inventory-pallet",
-      "projectPath": "/media/kianoush/Shared/projects/newki-inventory-pallet/newki-inventory-pallet.csproj",
+      "projectUniqueName": "/media/kianoush/Shared/projects/inventory-pallet-worker/worker.csproj",
+      "projectName": "worker",
+      "projectPath": "/media/kianoush/Shared/projects/inventory-pallet-worker/worker.csproj",
       "packagesPath": "/home/kianoush/.nuget/packages/",
-      "outputPath": "/media/kianoush/Shared/projects/newki-inventory-pallet/obj/",
+      "outputPath": "/media/kianoush/Shared/projects/inventory-pallet-worker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kianoush/.nuget/NuGet/NuGet.Config"
@@ -6840,7 +6840,7 @@
         "net6.0"
       ],
       "sources": {
-        "http://localhost:5000/v3/index.json": {},
+        "http://localhost:8081/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6941,8 +6941,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.125/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "worker depends on NewKiTurkeyLibrary (>= 1.8.6) but NewKiTurkeyLibrary 1.8.6 was not found. An approximate best match of NewKiTurkeyLibrary 1.8.7 was resolved.",
+      "libraryId": "NewKiTurkeyLibrary",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
