@@ -6681,19 +6681,19 @@
     ]
   },
   "packageFolders": {
-    "/home/kianoush/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/kianoush/Shared/projects/inventory-pallet-worker/worker.csproj",
+      "projectUniqueName": "/var/jenkins_home/workspace/inventory-pallet-worker/worker.csproj",
       "projectName": "worker",
-      "projectPath": "/media/kianoush/Shared/projects/inventory-pallet-worker/worker.csproj",
-      "packagesPath": "/home/kianoush/.nuget/packages/",
-      "outputPath": "/media/kianoush/Shared/projects/inventory-pallet-worker/obj/",
+      "projectPath": "/var/jenkins_home/workspace/inventory-pallet-worker/worker.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/var/jenkins_home/workspace/inventory-pallet-worker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/kianoush/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -6800,7 +6800,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.125/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
       }
     }
   },
