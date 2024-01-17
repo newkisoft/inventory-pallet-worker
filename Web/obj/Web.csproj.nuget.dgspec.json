@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/9A58A6A158A67C1F/projects/newki-inventory-pallet/Web/Web.csproj": {}
+    "/media/kianoush/Shared/projects/inventory-pallet-worker/Web/Web.csproj": {}
   },
   "projects": {
-    "/mnt/9A58A6A158A67C1F/projects/newki-inventory-pallet/Web/Web.csproj": {
+    "/media/kianoush/Shared/projects/inventory-pallet-worker/Web/Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/9A58A6A158A67C1F/projects/newki-inventory-pallet/Web/Web.csproj",
+        "projectUniqueName": "/media/kianoush/Shared/projects/inventory-pallet-worker/Web/Web.csproj",
         "projectName": "Web",
-        "projectPath": "/mnt/9A58A6A158A67C1F/projects/newki-inventory-pallet/Web/Web.csproj",
+        "projectPath": "/media/kianoush/Shared/projects/inventory-pallet-worker/Web/Web.csproj",
         "packagesPath": "/home/kianoush/.nuget/packages/",
-        "outputPath": "/mnt/9A58A6A158A67C1F/projects/newki-inventory-pallet/Web/obj/",
+        "outputPath": "/media/kianoush/Shared/projects/inventory-pallet-worker/Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kianoush/.nuget/NuGet/NuGet.Config"
@@ -20,11 +20,12 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "http://localhost:5000/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://localhost/nuget/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -36,6 +37,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -89,10 +91,25 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -101,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
