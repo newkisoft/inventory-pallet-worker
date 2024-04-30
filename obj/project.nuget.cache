@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jpOh9BHses6KkGSnmX41CkjcP+M5AQGxp0elwOo1ep8nSJIgbe8rih32SpS9orbUW8E4OwgDEBIMwFphHsYdYQ==",
+  "dgSpecHash": "GwjIa+q2Gy5gPY7MyVL5ltFDR2UMqqCmwdb94eCOV2g96W0RTc61WKuVgBNOoYbm9ZOHywYwM3Pa2Kh+S9N/qA==",
   "success": true,
   "projectFilePath": "/media/kianoush/Shared/projects/inventory-pallet-worker/worker.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,12 @@
     "/home/kianoush/.nuget/packages/zstdsharp.port/0.7.3/zstdsharp.port.0.7.3.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://localhost:8081/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
     {
       "code": "NU1608",
       "level": "Warning",

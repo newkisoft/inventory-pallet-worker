@@ -98,11 +98,8 @@ namespace newki_inventory_pallet.Services
         }
 
         public Pallet Insert(Pallet pallet)
-        {
-            if (_context.Pallet.FirstOrDefault(p => p.PalletId == pallet.PalletId) == null)
-            {
-                _context.Pallet.Add(pallet);
-            }
+        {            
+            _context.Pallet.Add(pallet);
             _context.SaveChanges();
             return pallet;
         }

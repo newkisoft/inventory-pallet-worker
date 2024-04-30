@@ -598,13 +598,13 @@
       "NewKiTurkeyLibrary/1.9.0": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Driver": "2.17.1"
+          "MongoDB.Driver": "2.23.1"
         },
         "compile": {
-          "lib/netcoreapp3.1/newkilibraries.dll": {}
+          "lib/net8.0/newkilibraries.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/newkilibraries.dll": {}
+          "lib/net8.0/newkilibraries.dll": {}
         }
       },
       "Npgsql/8.0.0": {
@@ -1678,12 +1678,12 @@
       ]
     },
     "NewKiTurkeyLibrary/1.9.0": {
-      "sha512": "+7Zme0DWI9FGzmU9CZM/0qSoAVuXSmNZenJZrTdpLr4Si2C4b55Dm1bEuDEYCoIQzusIJDb835Ga0HQ1bLRDPA==",
+      "sha512": "zt9vBCDX8vApbrOSCn/H5gsa1/IlYOsj6YG4aho1YzE3QQDaEVvfMfzYzbPd+17A55MilcIYYZ12IIQvl5DbpA==",
       "type": "package",
       "path": "newkiturkeylibrary/1.9.0",
       "files": [
         ".nupkg.metadata",
-        "lib/netcoreapp3.1/newkilibraries.dll",
+        "lib/net8.0/newkilibraries.dll",
         "newkiturkeylibrary.1.9.0.nupkg.sha512",
         "newkiturkeylibrary.nuspec"
       ]
@@ -2090,8 +2090,8 @@
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://localhost/nuget/": {}
+        "http://localhost:8081/": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -2103,6 +2103,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2178,11 +2183,17 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://localhost:8081/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
     {
       "code": "NU1608",
       "level": "Warning",

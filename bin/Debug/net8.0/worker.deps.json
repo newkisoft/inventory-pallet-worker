@@ -410,7 +410,7 @@
           "MongoDB.Driver": "2.23.1"
         },
         "runtime": {
-          "lib/netcoreapp3.1/newkilibraries.dll": {
+          "lib/net8.0/newkilibraries.dll": {
             "assemblyVersion": "1.9.0.0",
             "fileVersion": "1.9.0.0"
           }
@@ -755,7 +755,7 @@
     "NewKiTurkeyLibrary/1.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+7Zme0DWI9FGzmU9CZM/0qSoAVuXSmNZenJZrTdpLr4Si2C4b55Dm1bEuDEYCoIQzusIJDb835Ga0HQ1bLRDPA==",
+      "sha512": "sha512-zt9vBCDX8vApbrOSCn/H5gsa1/IlYOsj6YG4aho1YzE3QQDaEVvfMfzYzbPd+17A55MilcIYYZ12IIQvl5DbpA==",
       "path": "newkiturkeylibrary/1.9.0",
       "hashPath": "newkiturkeylibrary.1.9.0.nupkg.sha512"
     },

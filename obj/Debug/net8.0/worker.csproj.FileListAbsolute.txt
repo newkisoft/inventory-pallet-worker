@@ -54,9 +54,9 @@
 /media/kianoush/Shared/projects/inventory-pallet-worker/obj/Debug/net8.0/worker.AssemblyInfo.cs
 /media/kianoush/Shared/projects/inventory-pallet-worker/obj/Debug/net8.0/worker.csproj.CoreCompileInputs.cache
 /media/kianoush/Shared/projects/inventory-pallet-worker/obj/Debug/net8.0/worker.sourcelink.json
-/media/kianoush/Shared/projects/inventory-pallet-worker/obj/Debug/net8.0/worker.csproj.CopyComplete
 /media/kianoush/Shared/projects/inventory-pallet-worker/obj/Debug/net8.0/worker.dll
 /media/kianoush/Shared/projects/inventory-pallet-worker/obj/Debug/net8.0/refint/worker.dll
 /media/kianoush/Shared/projects/inventory-pallet-worker/obj/Debug/net8.0/worker.pdb
 /media/kianoush/Shared/projects/inventory-pallet-worker/obj/Debug/net8.0/worker.genruntimeconfig.cache
 /media/kianoush/Shared/projects/inventory-pallet-worker/obj/Debug/net8.0/ref/worker.dll
+/media/kianoush/Shared/projects/inventory-pallet-worker/obj/Debug/net8.0/worker.csproj.Up2Date
