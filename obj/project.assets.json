@@ -595,7 +595,7 @@
           }
         }
       },
-      "NewKiTurkeyLibrary/1.9.0": {
+      "NewKiTurkeyLibrary/1.9.1": {
         "type": "package",
         "dependencies": {
           "MongoDB.Driver": "2.23.1"
@@ -1677,14 +1677,14 @@
         "runtimes/win/native/mongocrypt.dll"
       ]
     },
-    "NewKiTurkeyLibrary/1.9.0": {
-      "sha512": "zt9vBCDX8vApbrOSCn/H5gsa1/IlYOsj6YG4aho1YzE3QQDaEVvfMfzYzbPd+17A55MilcIYYZ12IIQvl5DbpA==",
+    "NewKiTurkeyLibrary/1.9.1": {
+      "sha512": "c61OdoQ3MNlAkGxIg9J2hOLjPnGB6hoSO8+qy5gQbHX57FTiqtDmKlsJ4fcHrIlJO5QV+h9M94ae3/JDqnUzWA==",
       "type": "package",
-      "path": "newkiturkeylibrary/1.9.0",
+      "path": "newkiturkeylibrary/1.9.1",
       "files": [
         ".nupkg.metadata",
         "lib/net8.0/newkilibraries.dll",
-        "newkiturkeylibrary.1.9.0.nupkg.sha512",
+        "newkiturkeylibrary.1.9.1.nupkg.sha512",
         "newkiturkeylibrary.nuspec"
       ]
     },
@@ -2072,19 +2072,19 @@
     ]
   },
   "packageFolders": {
-    "/home/kianoush/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/kianoush/Shared/projects/inventory-pallet-worker/worker.csproj",
+      "projectUniqueName": "/var/jenkins_home/workspace/inventory-pallet-worker/worker.csproj",
       "projectName": "worker",
-      "projectPath": "/media/kianoush/Shared/projects/inventory-pallet-worker/worker.csproj",
-      "packagesPath": "/home/kianoush/.nuget/packages/",
-      "outputPath": "/media/kianoush/Shared/projects/inventory-pallet-worker/obj/",
+      "projectPath": "/var/jenkins_home/workspace/inventory-pallet-worker/worker.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/var/jenkins_home/workspace/inventory-pallet-worker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/kianoush/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2103,11 +2103,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2183,7 +2178,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -2193,6 +2188,16 @@
       "level": "Warning",
       "warningLevel": 1,
       "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://localhost:8081/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "worker depends on NewKiTurkeyLibrary (>= 1.9.0) but NewKiTurkeyLibrary 1.9.0 was not found. An approximate best match of NewKiTurkeyLibrary 1.9.1 was resolved.",
+      "libraryId": "NewKiTurkeyLibrary",
+      "targetGraphs": [
+        "net8.0"
+      ]
     },
     {
       "code": "NU1608",

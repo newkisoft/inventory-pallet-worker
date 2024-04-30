@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/media/kianoush/Shared/projects/inventory-pallet-worker/worker.csproj": {}
+    "/var/jenkins_home/workspace/inventory-pallet-worker/worker.csproj": {}
   },
   "projects": {
-    "/media/kianoush/Shared/projects/inventory-pallet-worker/worker.csproj": {
+    "/var/jenkins_home/workspace/inventory-pallet-worker/worker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/kianoush/Shared/projects/inventory-pallet-worker/worker.csproj",
+        "projectUniqueName": "/var/jenkins_home/workspace/inventory-pallet-worker/worker.csproj",
         "projectName": "worker",
-        "projectPath": "/media/kianoush/Shared/projects/inventory-pallet-worker/worker.csproj",
-        "packagesPath": "/home/kianoush/.nuget/packages/",
-        "outputPath": "/media/kianoush/Shared/projects/inventory-pallet-worker/obj/",
+        "projectPath": "/var/jenkins_home/workspace/inventory-pallet-worker/worker.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/var/jenkins_home/workspace/inventory-pallet-worker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kianoush/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -33,11 +33,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -113,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
